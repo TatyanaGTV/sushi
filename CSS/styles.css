@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, serif;
+    background-color: black;
+}
+header{
+    margin: 35px 0 34px 0;
+}
+header img {
+    display: inline-block;
+    vertical-align: middle;
+}
+header img:nth-child(2) {
+    margin-right: 282px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu ul li {
+    display: inline-block;
+    margin: 0 30px
+}
+.menu ul li a {
+    font-size: 16px;
+    color: rgb(253, 239, 213);
+    line-height: 1.2;
+    text-align: left;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: #ffaf18;
+    text-decoration: underline;
+}
+.main {
+    padding: 133px 0 288px 0;
+}
+.main-up h1 {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.222;
+    text-align: left;
+    margin-bottom: 87px;
+}
+.main-up h1 span {
+    color: #ffaf18;
+}
+.main-up {
+     display: inline-block;
+     vertical-align: middle;
+     max-width: 563px;
+ }
+.main-up-about {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    margin-right: 100px;
+}
+.main-up-about-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    margin-right: 11px;
+}
+.button {
+    background-color: rgb(255, 175, 24);
+    width: 224px;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    line-height: 3.438;
+    margin-top: 104px;
+    cursor: pointer;
+}
+.button:hover {
+    border: none;
+    box-shadow:  0 5px 20px #ffaf18;
+}
+.main-up-image {
+    width: 614px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.sushi-items {
+    font-size: 0;
+    margin-bottom: 240px;
+}
+.container .sushi-item:first-child {
+    margin-left: 0;
+}
+.container .sushi-item:nth-child(5) {
+    margin-left: 0;
+}
+.container .sushi-item:nth-child(4) {
+    margin-right: 0;
+}
+.container .sushi-item:last-child {
+    margin-right: 0;
+}
+.sushi-select {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    line-height: 1.571;
+    text-align: center;
+    margin-bottom: 48px;
+}
+.sushi-item {
+    width: 282px;
+    height: 354px;
+    background-color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 12px;
+}
+.sushi-item:first-child {
+    border: 5px solid #ed9b00;
+    box-sizing: border-box;
+}
+.sushi-item:first-child h3 {
+    margin-top: 25px;
+}
+.sushi-item:last-child {
+    border: 5px solid #ffa700;
+    box-sizing: border-box;
+}
+.sushi-item:last-child h3 {
+    margin-top: 25px;
+}
+.sushi-item:hover {
+    box-shadow: 0 0 10px #ffffff;
+}
+.sushi-image {
+    width: 200px;
+    margin: 0 auto;
+}
+.sushi-item h3 {
+    font-size: 18px;
+    color: rgb(24, 26, 26);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+.sushi-text {
+    font-size: 14px;
+    color: rgb(24, 26, 26);
+    text-align: center;
+    margin: 0 22px 15px 22px;
+    width: 242px;
+    height: 52px;
+
+}
+.sushi-item-button {
+    margin: 15px 20px;
+
+}
+.item-button {
+    padding: 18px 81px;
+    font-size: 16px;
+    color: rgb(2, 3, 3);
+    font-weight: bold;
+    background-color: rgb(255, 175, 24);
+    border: none;
+    border-radius: 25px;
+    width: 242px;
+    height: 50px;
+    text-align: center;
+}
+.item-button:hover {
+    border: none;
+    box-shadow: 0 5px 20px #ffaf18;
+}
+.cook-info {
+    max-width: 385px;
+    margin-right: 48px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.cook-title {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.cook-about {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 100px;
+}
+.cook-more {
+    width: 385px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-right: 48px;
+
+}
+.cook-image {
+    max-width: 700px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.cook-more h3 {
+    margin-bottom: 40px;
+}
+
+.sushi-link a {
+    border-radius: 50%;
+    background-color: white;
+    vertical-align: middle;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    margin-right: 40px;
+}
+.sushi-link a img {
+    padding-top: 11px;
+}
+.sushi-link a:visited {
+     background-color: #bebebe;
+ }
+.sushi-link a:hover {
+    box-shadow: 0 0 10px #ffffff;
+}
+.sushi-link a:active {
+    background-color:#ffaf18;
+}
+.sushi-link-img {
+    border-radius: 50%;
+    background-color: white;
+    padding: 14px 7px;
+    color: black;
+    text-align: center;
+}
+footer {
+    margin-top: 67px;
+    padding: 35px 0;
+}
+footer img {
+    display: inline-block;
+    vertical-align: middle;
+}
+footer span {
+    display: inline-block;
+    vertical-align: middle;
+    color: #2c2c2c;
+    margin-left: 390px;
+}
+
+
+
+
